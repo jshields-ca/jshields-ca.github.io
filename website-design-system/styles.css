@@ -1,0 +1,160 @@
+body {
+    font-family: domine, serif;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Domine', serif;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2em;
+    border-left: #7FB069 solid 5px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-family: 'TASA Orbiter', sans-serif;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-family: 'BBH Bogle', cursive;
+    font-weight: 300;
+    letter-spacing: 0.10em;
+}
+
+p {
+    font-family: 'TASA Orbiter', sans-serif;
+    line-height: 1.5;
+    font-size: 1.10em;
+}
+
+ul, li {
+    font-family: 'TASA Orbiter', sans-serif;
+    line-height: 1.5;
+}
+
+/** containers **/
+
+.container {
+    padding: 5px;
+    margin: 5px 0 5px 0 auto;
+}
+
+.color-container {
+    width: 100%;
+    margin: 0 1em 0 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/** color panels & styles **/
+
+.color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center ;
+    margin: 0.5em;
+    min-height: 125px;
+    padding: 15px;
+}
+
+.color-label {
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+.color-hex {
+    font-size: 1.75em;
+    letter-spacing: 0.4em;
+}
+
+/** font panels & styles **/
+
+.font-container {
+    width: 100%;
+    margin: 0 1em 0 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.font-panel {
+    width: 30%;
+    display: inline-block;
+    margin: 0.5em;
+    min-height: 125px;
+    padding: 15px;
+    font-size: 1.25em;
+}
+
+.font-label {
+    font-size: 1.50em;
+    text-decoration: underline;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/** text styles **/
+
+.text-style-container {
+    width: 100%;
+    margin: 0 1em 0 1em;
+}
+
+/** fonts **/
+
+.bbh-bogle {
+    font-family: 'BBH Bogle', cursive;
+}
+
+.tasa-orbiter {
+    font-family: 'TASA Orbiter', sans-serif;
+}
+
+.domine {
+    font-family: 'Domine', serif;
+}
+
+/** color palette **/
+
+.deep-blue {
+    background-color: #003049;
+    color: #fff;
+}
+
+.flag-red {
+    background-color: #D62828;
+    color: #fff;
+}
+
+.vivid-tangerine {
+    background-color: #F77F00;
+    color: #000;
+}
+
+.sage-green {
+    background-color: #7FB069;
+    color: #000
+}
+
+.vanilla-custard {
+    background-color: #EAE2B7;
+    color: #000;
+}
+
+
+
